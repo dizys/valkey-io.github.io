@@ -16,6 +16,7 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(SRC_DIR, 'styles')],
   },
+  output: 'export',
 }
 
 export default nextConfig
